@@ -4,6 +4,7 @@ import { InputDecimalComponent } from './components/input-decimal/input-decimal.
 import { SelectComponent } from './components/exemplos/select/select.component';
 import { ComboboxComponent } from './components/exemplos/combobox/combobox.component';
 import { RadiobuttonComponent } from './components/exemplos/radiobutton/radiobutton.component';
+import { TableComponent } from './components/exemplos/table/table.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path: 'select', component: SelectComponent},
   {path: 'combobox', component: ComboboxComponent},
   {path: 'radio', component: RadiobuttonComponent},
+  {path: 'table', component: TableComponent},
 
 ];
 

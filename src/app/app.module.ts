@@ -13,6 +13,9 @@ import { SelectComponent } from './components/exemplos/select/select.component';
 import { ComboboxComponent } from './components/exemplos/combobox/combobox.component';
 import { RadiobuttonComponent } from './components/exemplos/radiobutton/radiobutton.component';
 
+import {TableModule} from 'primeng/table';
+import { TableComponent } from './components/exemplos/table/table.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +24,8 @@ import { RadiobuttonComponent } from './components/exemplos/radiobutton/radiobut
     DatatableComponent,
     SelectComponent,
     ComboboxComponent,
-    RadiobuttonComponent
+    RadiobuttonComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +39,7 @@ import { RadiobuttonComponent } from './components/exemplos/radiobutton/radiobut
     ReactiveFormsModule,
     MatSelectModule,
     MatRadioModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
